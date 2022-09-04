@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="urf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/yourcode.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+        <script>
+            $(document).ready(function(){
+              $('#icon').click(function(){
+               $('ul').toggleClass('show')
+              });
+            });
+        </script>
+        <title>Navbar Example</title>
+        <body>
+            <header>
+                <nav>
+                    <ul>
+                        <li id="nav-title"> Fixed Navbar Title 
+                        </li>
+                        <li class="home active" id="nav-home-active">Home</li>
+                        <li>
+                            <a href="#">Link 1
+                        </li>
+                        <li>
+                            <a href="#">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 3</a>
+                        </li>
+                        <form>        
+                            <li id="top-right"><button type="search">Search</button></li>
+                            <li id="top-right">
+                            <input type="text" placeholder="Search..">
+                        </li>
+                        
+                        </form>
+                    </ul>
+                    <label id="icon">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                </nav>
+            </header>
+            
+            <section>
+                
+            </section>
+        </body>
+    </head>
+</html>
